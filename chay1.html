@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>thu</title>
+
+<style type="text/css">
+	.{
+		margin: 0px;
+		padding: 0px;
+		background-color: pink;
+	}
+	.thongtin {
+		text-align: center;
+		background-color: pink;
+	}
+	
+	.bang{
+		text-align: center;
+		border: 1px solid violet;
+	}
+	
+	.container {
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+ 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+    background-color: #45a049;
+</style>
+</head>
+<body>
+	<div class="thongtin">
+		<h1 >Thông tin cá nhân</h1><br>
+		<img src="thinh..jpg" alt="le van thinh"  width="200px" height="200px">
+		<p>Họ và tên: Lê Văn Thịnh</p>
+		<p>Mã sv:675105085</p>
+		<p>Khoa:CNTT</p>
+		<p>Chào mừng bạn đến website của tôi</p><br>
+	</div>
+		<h2 class="thongtin">
+			Vài thông tin cơ bản về bản thân tôi !
+		</h2>
+		<p style="text-align: center;">
+			Tôi tên là :Lê Văn Thịnh, tôi đến từ Hà Nội,tôi rất thích lập trình bởi tôi là một lập trình viên tương lai!
+		 		 Tôi đang theo học Công nghệ thông tin Trường: Đại học sư phạm hà nội. 
+		 </p>
+	<div class="bang">
+		 <table border="1" ">
+		 	  <tr>
+        <th colspan="3">THÔNG TIN CHUNG</th>
+   		 </tr>
+   		 <tr>
+        <td>MỐC THỜI GIAN</td>
+        <td>TÍNH CÁCH</td>
+        <td>SỞ THÍCH, ĐAM MÊ</td>
+    </tr>
+    <tr>
+        <td>Tôi sinh ngày 21/10/1999 tại Hà Nội<br>
+        Năm 2017 tôi đã đạt được ước mơ vào đại học tại trường:ĐHSP Hà Nội</td>
+        <td>Tôi là người trầm tính, ít nói,sống nội tâm, đặc biệt là ghét những sự dối trá<br>
+        Khi mới gặp tôi mọi người sẽ thấy tôi trầm tính, như một thời gian tiếp xúc thì rất dễ nói chuyện với nhau
+        </td>
+        <td>Sở thích thì tôi nhiều vô cùng,nhưng câu cá là sở thích từ nhỏ của tôi<br>
+        Và tôi luôn dành niềm đam mê này vào những ngày nghỉ.</td>
+    </tr>
+    
+		 </table>
+	</div>
+	<div class="container">
+    <h2 style="text-align: center;">Liên hệ</h2>
+    <p style="text-align: center;">Thông tin liên hệ</p>
+    <form action="/action_page.php">
+        <label for="fname">Họ Và Tên</label>
+        <input type="text" id="name" name="name" placeholder="Nhập họ và tên...">
+ 
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Nhập email...">
+ 
+        <label for="country">Số Điện Thoại</label>
+        <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại...">
+ 
+        <label for="address">Địa Chỉ</label>
+        <input type="text" id="address" name="address" placeholder="Nhập địa chỉ...">
+ 
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
